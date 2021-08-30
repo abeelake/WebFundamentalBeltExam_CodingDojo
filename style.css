@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+}
+
+nav {
+  width: 70vw;
+  height: 130px;
+  margin: 0px auto;
+}
+
+#navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#leafLogo {
+  height: 100%;
+}
+
+.green {
+  background-color: rgb(89, 187, 154);
+}
+#logoDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 24%;
+}
+#logoDiv h1 {
+  display: inline;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#searchDiv {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+}
+
+#searchDiv input {
+  width: 88%;
+  height: 40px;
+  border: 5px solid black;
+  border-radius: 45%;
+}
+
+::placeholder {
+  position: relative;
+  left: 40px;
+  font-size: 20px;
+}
+#searchDiv img {
+  height: 25px;
+  position: relative;
+  right: 50px;
+}
+
+#signinBtn {
+  width: 10%;
+  height: 30px;
+  background-color: white;
+  font-size: larger;
+  border-color: white;
+  border-style: none;
+}
+
+#cartImg {
+  height: 30px;
+}
+
+#navBottom {
+  height: 20%;
+  border-bottom: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#container {
+  margin: 0px auto;
+  width: 70vw;
+  height: 90vh;
+  display: block;
+}
+
+#container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#topContainer {
+  height: 40%;
+  display: flex;
+}
+
+#leftContainer {
+  width: 65%;
+  height: 100%;
+  background-color: rgb(89, 187, 154);
+  display: flex;
+}
+
+#leftText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 35%;
+  margin: auto 60px;
+}
+
+#leftContainer img {
+  width: 60%;
+}
+
+.bigText {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 26px;
+}
+
+#discover {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#rightContainer {
+  width: 35%;
+  height: 100%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#rightImg {
+  width: 100%;
+  height: 70%;
+}
+
+#soothing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(89, 187, 154);
+  width: 100%;
+}
+
+#bottomContainer {
+  margin-top: 3%;
+  height: 20%;
+  background-color: rgb(66, 165, 168);
+  display: flex;
+  justify-content: center;
+}
+
+.plantBox {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.plantBox img {
+  height: 50%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#alertBox {
+  width: 70vw;
+  height: 10%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  border: 5px solid black;
+}
+
+#alertBox p {
+  font-size: 20px;
+  margin: 0px 10%;
+}
+
+#alertBox button {
+  height: 50%;
+  width: 25%;
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  margin-right: 30px;
+}
+
+#alertBox img {
+  height: 80%;
+  margin-left: 30px;
+}
